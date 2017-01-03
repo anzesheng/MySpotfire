@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotfire.Dxp.Data", "Spotfire.Dxp.Data\Spotfire.Dxp.Data.csproj", "{34EAA70C-B45E-477A-A38F-700D5BAFF857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotfire.Dxp.Framework", "Spotfire.Dxp.Framework\Spotfire.Dxp.Framework.csproj", "{7EE9C5B5-B34D-4127-BBF9-20EC044BD4EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34EAA70C-B45E-477A-A38F-700D5BAFF857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EAA70C-B45E-477A-A38F-700D5BAFF857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EAA70C-B45E-477A-A38F-700D5BAFF857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EAA70C-B45E-477A-A38F-700D5BAFF857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE9C5B5-B34D-4127-BBF9-20EC044BD4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE9C5B5-B34D-4127-BBF9-20EC044BD4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE9C5B5-B34D-4127-BBF9-20EC044BD4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE9C5B5-B34D-4127-BBF9-20EC044BD4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
