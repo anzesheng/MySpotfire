@@ -44,24 +44,37 @@
     <Compile Include="ApplicationModel\AnalysisView.cs" />
     <Compile Include="ApplicationModel\ApplicationThread.cs" />
     <Compile Include="Commands\CommandHistory.cs" />
+    <Compile Include="Persistence\CampatibilityCallbackCollection.cs" />
     <Compile Include="DocumentModel\DocumentNode.cs" />
     <Compile Include="DocumentModel\DocumentView.cs" />
     <Compile Include="Commands\DocumentViewManager.cs" />
     <Compile Include="DocumentModel\IDocumentNode.cs" />
     <Compile Include="DocumentModel\IDocumentNodeChild.cs" />
+    <Compile Include="DocumentModel\IMutableProperty.cs" />
+    <Compile Include="DocumentModel\Triggers\IMutablePropertyTriggerHost.cs" />
     <Compile Include="DocumentModel\INode.cs" />
     <Compile Include="DocumentModel\INodeContext.cs" />
+    <Compile Include="DocumentModel\INotPersistedProperty.cs" />
+    <Compile Include="DocumentModel\IPropertyNameInternals.cs" />
+    <Compile Include="DocumentModel\IRuntimeProperty.cs" />
     <Compile Include="DocumentModel\ITransactions.cs" />
+    <Compile Include="DocumentModel\IUndoableBaseCrossReference.cs" />
+    <Compile Include="DocumentModel\IUndoableProperty.cs" />
     <Compile Include="DocumentModel\IUndoableZombieCollection.cs" />
+    <Compile Include="DocumentModel\IUndoableZombieCrossReference.cs" />
     <Compile Include="DocumentModel\IZombieHolderOwner.cs" />
     <Compile Include="DocumentModel\Node.cs" />
+    <Compile Include="DocumentModel\PropertyName.cs" />
+    <Compile Include="DocumentModel\State\ISharedComponent.cs" />
     <Compile Include="DocumentModel\TransactionHandle.cs" />
     <Compile Include="DocumentModel\IDocumentNodeOwner.cs" />
     <Compile Include="DocumentModel\UndoableKeyedCollection.cs" />
     <Compile Include="DocumentModel\UndoableKeyedZombieCollection.cs" />
+    <Compile Include="Persistence\CompatibilityItemCollection.cs" />
     <Compile Include="Persistence\PersistenceContextBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
